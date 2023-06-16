@@ -1,0 +1,41 @@
+{
+  "name": "b45a7036-51ce-419e-8ed3-88142811e75b",
+  "tags": [ "#test" ],
+  "displayName": "sss",
+  "notes": "est",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hello! How can I help you?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1686643676,
+    "nanos": 153936000
+  },
+  "testConfig": {
+    "trackingParameters": [ "test" ],
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}
